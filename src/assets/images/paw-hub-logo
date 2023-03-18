@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
+   sodipodi:docname="paw-hub-logo"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.6890625"
+     inkscape:cx="686.43991"
+     inkscape:cy="539.86395"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="100.38212"
+       y="46.356448"
+       width="1532.3168"
+       height="756.21503"
+       id="rect293" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff9800;fill-opacity:1;stroke-width:0.780325"
+       id="rect561"
+       width="347.91949"
+       height="235.44208"
+       x="680.68842"
+       y="196.3566"
+       rx="14.66627"
+       ry="16.607012" />
+    <text
+       xml:space="preserve"
+       id="text291"
+       style="font-size:192px;white-space:pre;shape-inside:url(#rect293);fill:#000000"
+       transform="translate(196.26621,146.07497)"><tspan
+         x="100.38281"
+         y="230.35742"
+         id="tspan1421"><tspan
+   style="font-weight:bold;font-family:Barlow;-inkscape-font-specification:'Barlow Bold';fill:#ffffff"
+   id="tspan1419">Paw </tspan>hub</tspan></text>
+  </g>
+</svg>
