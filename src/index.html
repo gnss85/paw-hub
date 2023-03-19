@@ -5,21 +5,66 @@
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Free Paw Content</title>
+    <script
+      src="https://kit.fontawesome.com/270f05737f.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <main>
-      <header>
-        <div>
-          <a href="#">Lorem</a>
-          <a href="#">Vel</a>
-          <a href="#">Recusandae</a>
-          <a href="#">Modi</a>
-          <a href="#">Nisi</a>
-          <a href="#">Magnam</a>
-          <a class="language-switch" href="#"></a>
+    <main class="grid-flow">
+      <header class="grid-flow">
+        <div class="header--links">
+          <div class="inner flex-flow">
+            <a href="#">cathub</a>
+            <a href="#">cat wellness</a>
+            <a href="#">insights</a>
+            <a href="#">sites</a>
+            <a href="#">shop</a>
+            <a href="#">trust & safety</a>
+            <a class="language-switch" href="#">EN</a>
+          </div>
         </div>
-        <div></div>
-        <nav></nav>
+        <div class="header--utility">
+          <div class="inner flex-flow">
+            <object
+              class="logo"
+              aria-hidden="true"
+              data="assets/images/paw-hub-logo.svg"
+              type="image/svg+xml"
+            ></object>
+            <form action="video/search" id="search-form" method="get">
+              <fieldset>
+                <div class="search-container grid-flow">
+                  <div class="btn-search" role="button" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                  <label for="search"
+                    ><input
+                      type="text"
+                      placeholder="Search Pawhub"
+                      name="searchbar"
+                      id="searchbar"
+                  /></label>
+                </div>
+              </fieldset>
+            </form>
+            <a href="#" class="button button--secondary m-auto">Upload</a>
+            <a href="#" class="button button--primary">Upgrade</a>
+            <a href="#">Log In</a>
+            <a href="#">Sign Up</a>
+          </div>
+        </div>
+        <nav class="header--nav">
+          <ul class="inner">
+            <li>home</li>
+            <li class="openable">Paw Videos</li>
+            <li class="openable">Categories</li>
+            <li class="openable">Live Cams</li>
+            <li class="openable">Pawstars</li>
+            <li class="openable">Community</li>
+            <li class="openable">Photos & GIFs</li>
+          </ul>
+        </nav>
       </header>
       <section></section>
       <footer></footer>

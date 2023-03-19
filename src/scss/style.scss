@@ -1,3 +1,144 @@
+:root {
+  --clr-bg: rgb(0 0 0);
+  --clr-header-bg: rgb(14 14 14);
+  --clr-primary: rgb(255 163 26);
+  --clr-secondary: rgb(47 47 47);
+  --clr-neutral: rgb(255 255 255);
+  --clr-searchbar: rgb(37 37 37);
+  --clr-link: rgb(198 198 198);
+
+  --font-default: Arial, Helvetica, sans-serif;
+
+  --no-border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background: green;
+  font-family: var(--font-default);
+  color: var(--clr-neutral);
+  background: var(--clr-bg);
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-link);
+}
+
+.inner {
+  width: min(100%, 75em);
+  margin-inline: auto;
+}
+
+grid-flow {
+  display: grid;
+}
+
+flex-flow {
+  display: flex;
+}
+
+main {
+  grid-template-rows: 6.9375em 1fr 20.8125em;
+
+  > header {
+    grid-template-rows: 1.25em 3.375em 2.25em;
+  }
+}
+
+.header {
+  &--links {
+    > .flex-flow {
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+    }
+
+    a {
+      text-transform: uppercase;
+    }
+  }
+
+  &--utility {
+    background-color: var(--clr-header-bg);
+
+    > .flex-flow {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      width: 7.8125em;
+      margin-inline-start: 1.5em;
+    }
+
+    form {
+      --form-height: 2em;
+      width: min(50%, 30em);
+      height: var(--form-height);
+      margin-block-start: 1em;
+      border: var(--no-border);
+    }
+
+    fieldset {
+      margin: 0;
+      padding: 0;
+      border: var(--no-border);
+    }
+
+    .search-container {
+      --border-radius: 4px;
+      background-color: var(--clr-searchbar);
+      border-radius: var(--border-radius);
+
+      &.grid-flow {
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        align-items: center;
+      }
+    }
+
+    .btn-search {
+      padding-inline-start: 10px;
+      padding-block-start: 3px;
+    }
+
+    .fa-solid {
+      color: var(--clr-link);
+    }
+
+    #searchbar {
+      width: 100%;
+      height: var(--form-height);
+      background-color: var(--clr-searchbar);
+      border: var(--no-border);
+      border-radius: var(--border-radius);
+
+      &::placeholder {
+        color: var(--clr-link);
+        font-style: italic;
+        padding-inline-start: 0.5em;
+      }
+    }
+
+    .m-auto {
+      margin-inline-start: auto;
+    }
+  }
+
+  &--nav {
+    background-color: var(--clr-header-bg);
+    margin-block-start: 1px;
+  }
 }
