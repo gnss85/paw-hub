@@ -590,6 +590,7 @@ main {
       display: block;
       max-width: 100%;
       transform: scale(2);
+      cursor: pointer;
     }
 
     p {
@@ -881,6 +882,51 @@ main {
       &:hover {
         background: rgb(63 63 63);
       }
+    }
+  }
+}
+
+/* -------------------------- ADOPT ----------------------------- */
+
+.adopt {
+  place-content: center;
+
+  &--content {
+    margin-block-start: 5em;
+
+    h1 {
+      font-size: 3em;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    p {
+      line-height: 2em;
+
+      &:nth-of-type(2) {
+        font-size: 1.5em;
+        font-weight: 700;
+      }
+    }
+  }
+
+  &--button {
+    display: inline-block;
+
+    padding: 0.5em 3em;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: var(--clr-primary);
+    background-color: var(--clr-footer-bg);
+    border: 3px solid var(--clr-primary);
+    outline: 3px solid var(--clr-footer-bg);
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      color: var(--clr-footer-bg);
+      background: var(--clr-primary);
+      border-color: var(--clr-footer-bg);
+      outline: 3px solid var(--clr-primary);
     }
   }
 }
