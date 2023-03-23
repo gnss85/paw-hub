@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "index.html"),
-        nested: resolve(__dirname, "adopt/index.html"),
+        main: resolve(__dirname + "/src", "index.html"),
+        adopt: resolve(__dirname + "/src", "adopt/index.html"),
       },
     },
 
